@@ -34,12 +34,12 @@ header .custom-header {
   font-weight: 700;
 }
 
-/* discount sale styles */
-.discound-sale {
+/* Discount sale styles */
+.discount-sale {
   margin: 0 477px;
   font-family: "Inter", serif;
 }
-.discound-sale-header {
+.discount-sale-header {
   text-align: center;
   font-size: 100px;
   color: #ff0000;
@@ -50,17 +50,19 @@ header .custom-header {
   font-size: 28px;
   color: #ff0000;
 }
-.descrption-head {
+.description-head {
   font-size: 57px;
   color: #070211;
   margin-top: 19px;
   text-align: center;
   margin-bottom: 57px;
 }
-.discound-sale-description {
+.discount-sale-description {
   display: flex;
   flex-direction: column;
-}
-.discound-img {
   align-items: center;
+}
+.discount-img {
+  display: block;
+  margin: 0 auto;
 }
