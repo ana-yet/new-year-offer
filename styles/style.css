@@ -128,3 +128,123 @@ header .custom-header {
   border: none;
   padding-left: 20px;
 }
+/* location styles */
+.location {
+  border-radius: 19px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 578px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 146px;
+}
+
+.location-description {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 70px;
+}
+.place-name::before {
+  content: "Place: ";
+  color: red;
+  margin-right: 5px;
+}
+.date::before {
+  content: "Date:  ";
+  color: red;
+  margin-right: 5px;
+}
+.time::before {
+  content: "Time:  ";
+  color: red;
+  margin-right: 5px;
+}
+.location-btn {
+  margin-top: 60px;
+  width: 167px;
+  height: 56px;
+  border-radius: 10px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+}
+/* Promotion Banner Styles */
+.promo-banner {
+  width: 100%;
+  height: 556px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 146px;
+}
+.special-offer {
+  width: 472px;
+  height: 306px;
+}
+.offer-title {
+  color: rgb(255, 0, 0);
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.offer-header {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather", serif;
+  font-size: 62px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.offer-image {
+  width: 556px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-img {
+  border: 18px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  position: cover;
+  width: 436px;
+  height: 436px;
+  padding: 40px;
+}
+.offer-subtitle {
+  /* background-color: gray; */
+  width: 331px;
+}
+.subtitle-header {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 62px;
+  font-weight: 700;
+  text-align: left;
+  margin: 134px 0 20px;
+}
+.subtitle-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  margin-bottom: 51px;
+}
